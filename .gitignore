@@ -1,5 +1,6 @@
 # Entornos virtuales
 nombre_de_tu_env/
+.venv/
 venv/
 ENV/
 env/

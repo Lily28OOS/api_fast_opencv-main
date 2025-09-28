@@ -1,0 +1,67 @@
+├── .venv
+│   ├── Include
+│   ├── Lib
+│   ├── Scripts
+│   ├── share
+│   ├── pyvenv.cfg
+│   ├── site-packages
+│   └── Scripts
+│       ├── activate
+│       ├── activate.bat
+│       ├── Activate.ps1
+│       ├── deactivate.bat
+│       ├── dotenv.exe
+│       ├── f2py.exe
+│       ├── face_detection.exe
+│       ├── face_recognition.exe
+│       ├── fastapi.exe
+│       ├── flask.exe
+│       ├── fonttools.exe
+│       ├── normalizer.exe
+│       ├── numpy-config.exe
+│       ├── pip.exe
+│       ├── pip3.9.exe
+│       ├── pip3.exe
+│       ├── pyftmerge.exe
+│       ├── pyftsubset.exe
+│       ├── python.exe
+│       ├── pythonw.exe
+│       ├── ttx.exe
+│       └── uvicorn.exe
+├── app
+│   ├── __pycache__
+│   │   ├── database.cpython-39.pyc
+│   │   ├── __init__.cpython-39.pyc
+│   │   └── main.cpython-39.pyc
+│   ├── database.py
+│   ├── face_utils.py
+│   ├── main.py
+│   ├── photo_cleaner.py
+│   └── __init__.py
+├── foto_mejorada_prueba
+│   ├── 0_original.jpg
+│   ├── 1_grises.jpg
+│   ├── 2_denoised.jpg
+│   ├── 3_contraste_mejorado.jpg
+│   ├── 4_apertura.jpg
+│   ├── 5_bordes.jpg
+│   └── tufoto_mejorada.jpg
+├── resultados
+│   └── tufoto_mejorada.jpg
+├── __pycache__
+│   ├── main.cpython-39.pyc
+├── .env
+├── .env.example
+├── .gitignore
+├── api.py
+├── app.log
+├── check_db.py
+├── check_photos.py
+├── DOCUMENTATION.md
+├── image_utils.py
+├── main.py
+├── prepro.py
+├── README.md
+├── requirements.txt
+├── setup_mysql.sql
+└── test.py

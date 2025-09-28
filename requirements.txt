@@ -1,0 +1,14 @@
+# Dependencias necesarias para el proyecto de reconocimiento facial (FastAPI, face_recognition, PostgreSQL)
+
+fastapi>=0.95.0,<1.0.0
+uvicorn>=0.21.0,<1.0.0
+python-multipart>=0.0.6,<1.0.0
+face-recognition>=1.3.0,<2.0.0
+opencv-python-headless>=4.7.0.72,<5.0.0
+numpy>=1.24.3,<2.0.0
+# Eliminadas dependencias de MySQL (mysql-connector-python, pymysql)
+# Eliminadas dependencias de autenticación (python-jose, passlib, cryptography)
+psycopg2-binary>=2.9.5,<3.0.0 # Conector para PostgreSQL (psycopg2 también es válido)
+python-dotenv>=1.0.0,<2.0.0
+pydantic>=1.10.7,<2.0.0
+# Eliminadas dependencias de autenticación
